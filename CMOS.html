@@ -1,0 +1,729 @@
+<html><head>
+
+
+<title>---Webworm: ECL206---</title>
+<style type="text/css">
+	a:hover{text-decoration:none}	
+	.scroll 
+	{		
+		scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+	}
+	
+	.main_text
+	{
+		font-family:Tahoma;
+		font-size:9px;
+		line-height:13px;
+		color:#464646;
+	}
+	.main_text1
+	{
+		font-family:Tahoma;
+		font-size:9px;
+		line-height:12px;
+		color:#464646;
+	}
+	.header_text
+	{
+		font-family:Tahoma;
+		font-size:9px;
+		line-height:13px;
+		color:#7A0202;
+	}
+	
+	.link_text, link_text2
+	{
+		font-family:Tahoma;
+		font-size:10px;
+		line-height:13px;
+		color:#821212;
+	}
+	
+	.link_text2 {
+		color: #FFF;
+	}	
+	
+	.copyright_text
+	{
+		font-family:Tahoma;
+		font-size:10px;
+		line-height:13px;
+		color:#E0E0E0;
+	}	
+	a.copyright_text:link {text-decoration:none;}	
+	a.copyright_text:hover {text-decoration:underline;}
+	a.copyright_text:active {text-decoration:none;}
+	a.copyright_text:visited {text-decoration:none;}	
+	
+	a.header_text:link {text-decoration:none;}	
+	a.header_text:hover {text-decoration:underline;}
+	a.header_text:active {text-decoration:none;}
+	a.header_text:visited {text-decoration:none;}	
+.style6 {
+	font-size: 40px;
+	color: #7A0704;
+}
+.style5 {	color: #8A2020;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+}
+.scroll1 {		scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll11 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll11111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.style50 {font-size: 16px}
+a:link {
+	color: #7A0704;
+}
+a:visited {
+	color: #7A0704;
+}
+.style51 {
+	color: #7A0704;
+	font-weight: bold;
+	font-size: 16px;
+}
+.style65 {font-family: Tahoma; font-size: 10px; line-height: 13px; color: #E0E0E0; font-weight: bold; }
+body {
+	background-image: url(equations.jpg);
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><link href="dsp_files/world.css" type="text/css" rel="stylesheet">
+<style type="text/css">
+<!--
+.style67 {
+	color: #910604;
+	font-weight: bold;
+}
+.style66 {	font-size: 10px;
+	color: #000000;
+}
+.style70 {color: #000000; font-weight: bold; }
+.style72 {color: #7A0704}
+.scroll12211 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.style74 {color: #7A0704; font-weight: bold; }
+.scroll122111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122112 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122113 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122114 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221131 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll12211311 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll12211111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122111111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.style75 {color: #910604; font-weight: bold; font-size: 16px; }
+.style77 {font-size: 16px; color: #000000;}
+.scroll122113111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221131111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.style79 {font-weight: bold}
+.scroll12211311111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll12211311112 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122111112 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221111121 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll12211111211 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122113111111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221131111111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll12211311111111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122113111111111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221131111111111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.style83 {color: #000000}
+.scroll12211311111111111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll12211311111111112 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122113111111111121 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221131111111111211 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122113111111111122 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122113111111111123 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.style84 {font-size: 16px; color: #910604;}
+.scroll1221131111111111231 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll12211311111111112311 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll122113111111111123111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+.scroll1221131111111111231111 {scrollbar-3dlight-color: #ffffff; 
+		scrollbar-arrow-color: #821212;
+		scrollbar-base-color: #ffffff;
+		scrollbar-darkshadow-color: #ffffff;
+		scrollbar-face-color: #ffffff;
+		scrollbar-highlight-color: #821212;
+		scrollbar-shadow-color: #821212;
+		scrollbar-track-color: #ffffff
+}
+-->
+</style>
+</head>
+<body leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" bgcolor="#cccccc"><div class="meebo-00" id="meebo" style="position: fixed; bottom: 0px; left: 0px; display: none;">
+  <m style="opacity: 0.8; height: 577px;" class="meebo-5"></m><m style="height: 577px;" class="meebo-4"></m><m ev_id="1" style="opacity: 0; display: none;" class="meebo-61 meebo-67"><a style="-moz-user-select: -moz-none;" class="meebo-63"><m class="meebo-62"></m></a><m class="meebo-64"><svg style="position: absolute;" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs></svg></m></m><m style="height: 29px; width: 38px; right: 1px;" class="meebo-30"><svg style="position: absolute; height: 29px; width: 38px; bottom: 0px;" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path stroke-opacity="0.02" fill-opacity="0.02" d="M 0 29 L 0 10 A 10 10 0 0 1 10 1.7763568394002505e-15 L 28 0 A 10 10 0 0 1 38 10 L 38 29 L 33 29 L 33 10 A 5 5 0 0 0 28 5 L 10 5 A 5 5 0 0 0 5 10 L 5 29 L 0 29" fill="#000"></path><path stroke-opacity="0.04" fill-opacity="0.04" d="M 1 29 L 1 10 A 9 9 0 0 1 10 1.0000000000000018 L 28 1 A 9 9 0 0 1 37 10 L 37 29 L 33 29 L 33 10 A 5 5 0 0 0 28 5 L 10 5 A 5 5 0 0 0 5 10 L 5 29 L 1 29" fill="#000"></path><path stroke-opacity="0.06" fill-opacity="0.06" d="M 2 29 L 2 10 A 8 8 0 0 1 10 2.0000000000000018 L 28 2 A 8 8 0 0 1 36 10 L 36 29 L 33 29 L 33 10 A 5 5 0 0 0 28 5 L 10 5 A 5 5 0 0 0 5 10 L 5 29 L 2 29" fill="#000"></path><path stroke-opacity="0.08" fill-opacity="0.08" d="M 3 29 L 3 10 A 7 7 0 0 1 10 3 L 28 3 A 7 7 0 0 1 35 10 L 35 29 L 33 29 L 33 10 A 5 5 0 0 0 28 5 L 10 5 A 5 5 0 0 0 5 10 L 5 29 L 3 29" fill="#000"></path><path stroke-opacity="0.1" fill-opacity="0.1" d="M 4 29 L 4 10 A 6 6 0 0 1 10 4 L 28 4 A 6 6 0 0 1 34 10 L 34 29 L 33 29 L 33 10 A 5 5 0 0 0 28 5 L 10 5 A 5 5 0 0 0 5 10 L 5 29 L 4 29" fill="#000"></path></svg><m class="meebo-19" ev_id="2" style="white-space: nowrap; overflow: hidden; cursor: pointer; -moz-user-select: -moz-none; width: 28px; left: 5px; bottom: 0px;"><m style="-moz-user-select: -moz-none; height: 24px; width: 28px;" class="meebo-23"><svg style="position: absolute; -moz-user-select: -moz-none; height: 24px; width: 28px;" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs style="-moz-user-select: -moz-none;"><linearGradient y2="1" x1="0" x2="0" y1="0" id="meeboCanvas-6-gradient-7"><stop stop-color="#FFF" offset="0"></stop><stop stop-color="#EFEFEF" offset="1"></stop></linearGradient></defs><path stroke-opacity="1" fill-opacity="1" d="M 0 3 A 3 3 0 0 1 3 4.440892098500626e-16 L 25 0 A 3 3 0 0 1 28 3 L 28 24 L 0 24 L 0 3" fill="url('http://ankitwebworm.webs.com/dsp.html#meeboCanvas-6-gradient-7')"></path><path stroke-opacity="1" fill-opacity="1" fill="none" stroke="#999"></path></svg></m><m style="font-size: 11px; font-weight: normal; font-family: Tahoma,Arial,sans-serif; -moz-user-select: -moz-none; opacity: 1; color: rgb(102, 102, 102); width: 28px;" class="meebo-22"></m><m style="-moz-user-select: -moz-none;" class="meebo-20"></m></m>
+  </m></div>
+	<table width="766" align="center" border="0" cellpadding="0" cellspacing="0" height="100%">
+	  <tbody><tr>
+		<td valign="middle" width="766" bgcolor="#cccccc" height="600">
+			<table width="766" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" height="600">
+				<tbody><tr>
+					<td valign="top" width="766" height="535">
+						<table width="766" border="0" cellpadding="0" cellspacing="0" height="535">
+						  <tbody><tr>
+						    <td style="background-image: url(&quot;images/fon_flash.jpg&quot;); background-repeat: no-repeat;" valign="top" width="341" height="535"><div class="style1" style="margin-left: 100px; margin-top: 95px;">
+                                <p class="style6">Webworm</p>
+						      </div>
+						        <div align="right">
+						          <pre><span class="style5"><a href="index_CMOS.html">Home
+</a><a href="https://docs.google.com/forms/d/1K0pEXtdXqpwBduEtDVvFGfg3EO06Lq8wgNXY9cvc9K0/viewform?usp=send_form">
+<a href="contact.html">Contact</a>
+
+Disclaimer</span></pre>
+</div></td>
+							<td width="425" height="535" valign="top" nowrap="NOWRAP" style="background-image: url(&quot;images/fon_main.jpg&quot;); background-repeat: no-repeat;">
+								<div style="margin-left: 34px; margin-top: 70px;">
+								  <p>
+								    <iframe src="http://free.timeanddate.com/clock/i1lyste3/n176/fc8a2221/tt0/tw1/tm1/th2" frameborder="0" width="225" height="18"></iframe>
+								  </p>
+								  <p><a href="#" class="header_text"><img src="images/mark_more.jpg" alt="a" width="14" height="15" hspace="0" vspace="0" border="0" align="left" style="margin-top:2px; margin-right:2px"></a><span class="style51">CMOS Design  (ECL 310) </span><span class="style50"><strong>: </strong></span></p>
+						      </div> 
+							    <pre>    <img src="images/top.jpg" alt="a" width="287" height="9"></pre>
+							    <div class="scroll11111" style="margin-left: 30px; margin-top: 9px; width: 290px; height: 300px; overflow-y: auto; overflow-x: hidden;">
+                                  <div style="width: 255px; height: 386px;">
+<div class="style50" style="margin-left: 0px; margin-top: 3px;">
+  <h1 class="style75" dir="ltr">Performance Grades (Indicative) <span class="style66">(Updated: 2 Dec 2015, 1:40 PM)</span> <span class="scroll1221131111111111231111" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><img src="images/new.gif" alt="a" width="35" height="15"></span></h1>
+   <p>The 
+     performance grades are now available! Before that there are a few things which I would like to mention. Please note that these grades are <span class="style50" style="margin-left: 0px; margin-top: 3px;">only</span> indicative. The final grades 
+     shall be made available by the officials managing the 
+     Academic
+     Information 
+     Management System of the institute, hopefully by next week or so. 
+     The grades are also available  on the notice board of the Department of Electrical Engineering.
+     <span class="style50" style="margin-left: 0px; margin-top: 3px;">Utmost</span> care was taken during the evaluation and award of grades. Still, if there are any discrepancies, please inform the Instructor at the earliest. I hereby declare completion  of the course ECL 206. Thank you for your wonderful response.  
+     I had a great experience. :)   </p>
+   <p><a href="https://drive.google.com/file/d/0ByX7GC4V6ew9NktVVUtXbVRhU3c/view?usp=sharing"><strong>Please click here to view your (indicative) grades. </strong></a></p>
+   <p><span class="style75"><span class="style83">________________________________</span></span></p>
+   <h1 class="style75" dir="ltr">Final Class Ststistics <span class="style66">(Updated: 1 Dec 2015, 1:15 PM)</span> <span class="scroll122113111111111123111" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><img src="images/new.gif" alt="a" width="35" height="15"></span></h1>
+   <a href="https://docs.google.com/spreadsheets/d/1QzF8BMsU-gXRFEP2I1iQlhMcRuagIu2we1_l-IQlY4k/edit?usp=sharing">Click here to view your final performance out of 100 and overall class statistics.</a>
+  <h1 class="style75" dir="ltr"><span class="style83">________________________________</span></h1>
+  <h1 class="style75" dir="ltr">Inspection and Perusal of Evaluated Answer Scripts: <br>
+    <span class="style66">(Updated: 30 Nov 2015, 2:00 PM)</span> <span class="scroll12211311111111112311" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><img src="images/new.gif" alt="a" width="35" height="15"></span></h1>
+  The 
+  evaluated answer scripts of the semester-end examination are now available for inspection and perusal! For the same, students can come to the Advanced Research Lab (which is located at first floor of the ECE department) today from 3:00 PM onwards.. 
+  <p><span class="style83">________________________________</span></p>
+  <h1 class="style75" dir="ltr">Post Semester-End Examination<br>
+    <span class="style66">(Updated: 24 Nov 2015)</span> <span class="scroll1221131111111111231" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><img src="images/new.gif" alt="a" width="35" height="15"></span></h1>
+  <p>IMPORTANT NOTE: Submission of feedback form is now compulsory, failing which you will not be shown the evaluated answer scripts. The feedback form being anonymous, how will I come to know, who has submitted and who has not? Well, I won't! That is just to scare you, I can only believe you :P :) </p>
+  <ul>
+    <li><u>Instructor's Solutions:</u><strong><a href="https://drive.google.com/file/d/0B6Yjf1nWNJPUUkYwMXBNMXppS0U/view?usp=sharing">
+      <base target="_blank">
+      Click here to view the Instructor's Solutions to the  Semester End Exam examination.</a><br>
+    </strong></li>
+    <li><u>Answer Scripts:</u> The answer scripts shall be available to the students for inspection by the end of this week. The details will be posted on the website. So, stay tuned! <br>
+    </li>
+    <li><u>Students responsibility:</u> Before coming for the inspection of the answer scripts, students <strong>must</strong> go through the solutions carefully and inform the instructor in case of any discrepancies found.</li>
+    </ul>
+  <p><span class="style83">________________________________</span></p>
+  <h1 class="style75" dir="ltr">Regarding Semester-End Examination: <br>     
+    <span class="style66">(Updated: 16 Nov 2015)</span> <span class="scroll122113111111111123" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><img src="images/new.gif" alt="a" width="35" height="15"></span></h1>
+  <p class="style84" dir="ltr">Note: Please keep a track of this section, as it is supposed to be updated  on a&nbsp;timely&nbsp;basis.</p>
+  <p class="style77" dir="ltr">The Semester-End Examination is scheduled to be conducted on Nov 24, 2015, details of which are given below.</p>
+  <ul>
+    <li><u>Date:</u> 24 Nov, 2015</li>
+    <li><u>Time:</u> 2.00 to 5.00 PM </li>
+    <li><u>Slot:</u> G </li>
+    <li><u>Maximum Marks:</u> 60 </li>
+    <li><u>Syllabus:</u> Everthing that is instructed in the class from  day one till the last day of instruction.</li>
+    <li><u>Topics to be self-prepared:
+      </u>
+      <ul>
+        <li>Basics of Power Amplifiers</li>
+        <li>Millman's Theorem </li>
+      </ul>
+    </li>
+    </ul>
+  <p class="style77" dir="ltr">&nbsp; </p>
+  <p class="style75" dir="ltr"><span class="style83">________________________________</span></p>
+  <h1 class="style75" dir="ltr">In-Semester Performace:<br>
+    <span class="style66">(Updated: 10 Nov 2015)</span> <span class="scroll122113111111111122" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><img src="images/new.gif" alt="a" width="35" height="15"></span></h1>
+  <p>The 
+    in-semester performace (out of 40) is now available. The marks allotted for attendance are as per the following rules.</p>
+  <ul>
+    <li>90 &lt;= A &lt;= 100 : 10</li>
+    <li>80 &lt;= A &lt; 90 : 8</li>
+    <li>70 &lt;= A &lt;  80: 6</li>
+    <li> A &lt; 70  : 4  </li>
+  </ul>
+  <p>The performance in the class test and marks for the attendance are merged into a single entity as follows: <strong>(Attendance Marks + Marks obtained in Class Test) / 2</strong>. </p>
+  <p> <a href="https://docs.google.com/spreadsheets/d/1QzF8BMsU-gXRFEP2I1iQlhMcRuagIu2we1_l-IQlY4k/edit?usp=sharing"><strong>Click here</strong></a> to view your In-Semester performance and class statistics. </p>
+  <h1 class="style75" dir="ltr"><span class="style83">________________________________</span></h1>
+  <h1 class="style75" dir="ltr">Feedback form:<br>
+      <span class="style66">(Updated: 30 Oct 2015)</span> <span class="scroll12211311111111112" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><img src="images/new.gif" alt="a" width="35" height="15"></span></h1>
+  <ul>
+    <li> Feedback is a way to improve the things.</li>
+    <li> This feedback form has got nothing to do with the department's official feedback form, if any. </li>
+    <li> Your feedback is valuable. Please make maximal use of it to convey what you feel.</li>
+    <li> The form submission would just take a few minutes, so please don't be lazy to express.</li>
+    <li> For complete freedom, the feedback form is kept completely anonymous. No name, email ID or any such personal information is required. So feel free to express, no one is going to get hold of you :P </li>
+  </ul>
+  <p><a href="https://docs.google.com/forms/d/1K0pEXtdXqpwBduEtDVvFGfg3EO06Lq8wgNXY9cvc9K0/viewform?usp=send_form"><strong>Click here to give your valuable feedback.</strong></a> </p>
+  <p>________________________________</p>
+  <h1 class="style75" dir="ltr">Notes related to the 2nd Guest Session:<br>
+      <span class="style66">(Updated: 11 Nov 2015)</span></h1>
+  <p><strong><a href="https://drive.google.com/file/d/0B6Yjf1nWNJPUZk9kWEx4VktWRVU/view?usp=sharing">Click here to view/download</a></strong> the noted related to the second guest session (to be used solely for the understanding of the contents covered in the guest session). </p>
+  <p><span class="style83">_______________________________</span></p>
+  <p>&nbsp;</p>
+  <h1 class="style75" dir="ltr">Class Statistics till Sessional 2 exam:<br>
+    <span class="style66">(Updated: 20 Oct 2015)</span></h1>
+  Student's individual performace and attendance upto the Sessional-2 examination are now available.
+  <a href="https://docs.google.com/spreadsheets/d/1QzF8BMsU-gXRFEP2I1iQlhMcRuagIu2we1_l-IQlY4k/edit?usp=sharing"><strong>Click here to view the class statistics.  </strong></a>
+  <h1 class="style75" dir="ltr">________________________________</h1>
+  <h1 class="style75" dir="ltr"><span class="style67">Post Sessional 2 Exam: </span><span class="style66"><br>
+  </span><span class="style66">(Updated: 10 Oct 2015)</span></h1>
+  <ul>
+    <li><u>Instructor's Solutions:</u><strong><a href="https://drive.google.com/file/d/0B6Yjf1nWNJPUV2tzbzFfczNVa1U/view?usp=sharing">
+      <base target="_blank">
+      Click here to view the Instructor's Solution to the  Sessional Exam 2 examination.</a><br>
+    </strong></li>
+    <li><u>Answer Scripts:</u> The answer scripts shall be available to the students for inspection by the end of next week. <br>
+    </li>
+    <li><u>Students responsibility:</u> Before coming for the inspection of the answer scripts, students <em><strong>must</strong> </em>go through the solutions critically and inform the instructor in case of any discrepancies found.</li>
+  </ul>
+  <p>___________________________________</p>
+  <h1 class="style75" dir="ltr"><u><span class="style72">Regarding Sessional Exam 2 </span></u><span class="scroll1221131111111" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><img src="images/new.gif" alt="a" width="35" height="15"></span><br>
+    <span class="style66">(Updated: 09 Oct 2015)</span></h1>
+  <ul>
+    <li><u>Date:</u> 10 Oct, 2015</li>
+    <li><u>Time:</u> 10:30 to 11:30 AM </li>
+    <li><u>Slot:</u> G </li>
+    <li><u>Weightage:</u> 15 Marks (15 %) </li>
+    <li><u>Syllabus:</u> Everthing that is instructed in the class from  day one till 05 October 2015</li>
+    </ul>
+  <p>For practice, students may consider solving the unsolved numericals given in the standard recommended textbooks. Student who are unable to avail the textbooks can get the numericals by previewing the recommended books on the Google books website. For convenience, I have compiled the links and are given below.</p>
+  <ul>
+    <li>Integrated Electronics: Millman, Halkias and Parikh (Second Edition)<br>
+      <a href="https://books.google.co.in/books/about/Millman_S_Integrated_Electronics_2E.html?id=A6nogFK7OfUC">Click here </a></li>
+    <li>Integrated Electronics: Millman, Halkias (First Edition)<br>
+      <a href="https://books.google.co.in/books/about/Integrated_Electronics.html?id=Qta8v9hJBMAC">Click here </a></li>
+    <li>Electronic and Devices Theory: Boylestad, Nashelsky (Tenth Edition) <br>
+      <a href="https://books.google.co.in/books/about/Electronic_Devices_and_Circuit_Theory.html?id=32RJvfgkJgwC">Click here </a></li>
+    <li>Electronic and Devices Theory: Boylestad, Nashelsky (Ninth Edition)<br>
+      <a href="https://books.google.co.in/books/about/Electronic_Devices_And_Circuit_Theory_9.html?id=gYx5jnlcDmAC">Click here </a></li>
+  </ul>
+  <p>All the best for your examination :) </p>
+  <p>________________________________</p>
+  <h1 class="style75" dir="ltr">Class test tomorrow (1 Oct 2015):<br>
+    <span class="style66">(Updated: 30 Sept 2015)</span></h1>
+  <p>We shall have a  class test tomorrow, details of which are given below. The test will be conducted on my behalf with the invigilation of Sudhir Kumar Singh. </p>
+  <ul>
+    <li><u>Date:</u> Oct 1, 2015 </li>
+    <li><u>Time:</u> 30 Min (during class hours 9:00 AM to 10:00 AM) </li>
+    <li><u>Venue:</u> E1/4  </li>
+    <li><u>Maximum Marks:</u> 10 </li>
+    <li><u>Syllabus:</u> Everything that will be covered till the last lecture.</li>
+    </ul>
+  <p><strong>________________________________</strong></p>
+  <h1 class="style75" dir="ltr">Feedback/ Voting 
+    for the First Guest session:<br>    
+    <span class="style66"> (Updated: 26 Sep 2015)</span></h1>
+  <ul>
+    <li>Feedback/ Voting helps in improvising the things. Please leave your feedback (it hardly takes a minute or so) </li>
+    <li>This is for only those students who have attended the guest session on 25 Sept 2015</li>
+    <li>To have a unique voting, the feedback submission would require your signing into your Gmail account. So, the people who doesn't have a Gmail account may create one and then leave the feedback.</li>
+    </ul>
+  <p><span class="style79"><a href="https://docs.google.com/forms/d/1RasoRpKtH3GjDZgS8jUWkWO_G6zkPqOoFjsmVJIHTUA/viewform?usp=send_form">Click here to leave your  feedback/ voting  for the Guest session</a>. </span></p>
+  <p class="style75" dir="ltr"><span class="style77"><strong>________________________________</strong></span></p>
+  <p class="style75" dir="ltr">&nbsp;</p>
+  <h1 class="style75" dir="ltr"><a href="https://drive.google.com/file/d/0B6Yjf1nWNJPUS2xkSEZndVFzc0E/view?usp=sharing">Click here to View/ Download Guest Lecture Notes (to be used solely for the guest lecture conducted on 25 Sept 2015)</a><br>
+  <span class="style66"> (Updated: 25 Sep 2015)</span></h1>
+  <p class="style75" dir="ltr"><strong>________________________________</strong></p>
+  <p class="style75" dir="ltr"><u><span class="style74">Class Test Postponed: </span></u><span class="scroll12211111211" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><br>
+  </span>---------------------------------------------------</p>
+  <h1 class="style75" dir="ltr">Registration for the (optional) hands-on session on Electronics Devices and Circuits</h1>
+  <p class="style75" dir="ltr"><span class="style66"> (Updated: 24 Sep 2015)</span></p>
+  <p>The registration is now open. Please click on the link given below to register. </p>
+  <p>Please note,</p>
+  <ul>
+    <li>The session would be highly helpful to the students looking for jobs in core (Government/ Private)companies and/or competitive examinations like GATE/IES/PSUs and so on. </li>
+    <li>Although optional, this session would also assist in your examinations. </li>
+    <li> Timings: 10:30 AM onward (default). Any change in the venue and timings (if any) will be updated on the website.</li>
+    <li> Keep checking the website www.ankitbhurane.co.nr for further updates. Please carry Engineering Calculator and Guest's Lecture Notes on the website (soft/hard copy, whichever is convenient), Your Notebook and Pen.</li>
+    <li>Consider registering yourself again, even if you have given your names to your class CR (Shashank Nagole). That will confirm your seat!</li>
+    <li>Consider spreading this message to your fellow classmates.</li>
+  </ul>
+  <p><a href="https://docs.google.com/forms/d/1g2uD7VGs_FCzSNjsOFaiXBVbp4bYLTsXM3iWF-pnnfk/viewform?usp=send_form"><strong>Click here to register yourself for the expert session.</strong></a></p>
+  <p class="style77" dir="ltr"><strong>________________________________</strong></p>
+  <p><span class="style74"><u>Sessional-1 performance and Attendance upto Sessional-1 examination </u></span><span class="style66"><br>
+    (Updated: 18 Sep 2015)</span></p>
+  <p>Student's individual performace and attendance upto the Sessional-1 examination are now available.<br> 
+    <a href="https://docs.google.com/spreadsheets/d/1QzF8BMsU-gXRFEP2I1iQlhMcRuagIu2we1_l-IQlY4k/edit?usp=sharing"><strong><base target="_blank">CLICK HERE to view your performace, attendance, and class statistics </strong></a></p>
+  <p><strong>IMPORTANT: DISCREPANCIES, IF ANY, MUST BE BROUGHT TO THE NOTICE OF THE INSTRUCTOR AT THE EARLIEST.    STUDENTS WHO HAVE RECEIVED MARKS LESS THAN OR EQUAL TO 4 MARKS IN THEIR SESSIONAL-1    EXAMINATION AND/OR HAVE ATTENDANCE LESS THAN 50%, ARE SUPPOSED TO MEET THE INSTRUCTOR AR THE EARLIEST.</strong>\</p>
+  <p><strong>________________________________</strong></p>
+  <p><u><span class="style74">Class Test: </span></u><span class="scroll12211111" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><br>
+  </span><span class="style66">(Updated: 18 Sept 2015)</span></p>
+  <p>A class test will be conducted anytime between 21 Sep 2015 to 25 Sep 2015. Details are given below </p>
+  <ul>
+    <li><u>Date:</u> Anytime in the class hours scheduled between the above mentioned dates. </li>
+    <li><u>Time:</u> 30 Min </li>
+    <li><u>Maximum Marks:</u> 10 </li>
+    <li><u>Syllabus:</u> Everything that will be covered till the last lecture before the class test.</li>
+  </ul>
+  <p>________________________________</p>
+  <p><strong><br>
+    NO CLASS WILL BE CONDUCTED ON MONDAY</strong> <span class="scroll1221" style="margin-left:30px; margin-top:9px; width:290px; height:80px; overflow:hidden; overflow-x:hidden"><strong><br>
+      (14 Sept 2015) </strong></span>  </p>
+  <p>________________________________</p>
+  <p><span class="style74"><u>Post Sessional 1 Exam: </u></span><span class="style66"><br>
+                                      (Updated: 05 Sept 2015)</span><br>
+                              </p>
+                                      <ul><li><u>Instructor's Solutions:</u><strong><a href="https://drive.google.com/file/d/0B6Yjf1nWNJPUWGc1cnBFdmZ5cms/view?usp=sharing">
+                                        <base target="_blank">Click here to view the Instructor's Solution to the  Sessional Exam 1 examination.</a><br>
+                                      </strong></li>
+                                        <li><u>Answer Scripts:</u> The answer scripts shall be available to the students for inspection by the end of next week. <br>
+                                        </li>
+                                        <li><u>Students responsibility:</u> Before coming for the inspection of the answer scripts, students <strong>must</strong> go through the solutions critically and inform the instructor in case of any discrepancies found.</li>
+                                      </ul>
+                                      <p>________________________________</p>
+                                      <p class="style70"><u><span class="style72">Regarding Sessional Exam 1</span></u></p>
+                                      <ul>
+                                        <li><u>Date:</u> 05 Sept, 2015</li>
+                                        <li><u>Time:</u> 10:30 to 11:30 AM </li>
+                                        <li><u>Slot:</u> G                                        </li>
+                                        <li><u>Syllabus:</u> Everthing that is instructed in the class from the day one till 31 August 2015<br>
+                                        </li>
+                                      </ul>
+                                      <p>________________________________</p>
+                                      <p class="style67"><u>Recommended Books</u> </p>
+                                      <ol>
+                                        <li> Milman and Halkias, &ldquo;Integrated Electronics&rdquo;, Second Edition, 2011, McGraw Hill</li>
+                                        <li> Bapat, &ldquo;Theory &amp; Problem in Circuit analysis&rdquo;, McGraw Hill.</li>
+                                        <li> Boylestad and Nashelsky, &ldquo;Electronic Devices &amp; Circuit theory&rdquo;,2011, Tenth Edition, Dorling Kindersley (RS).</li>
+                                        <li>  Schilling &amp; Belove, &ldquo;Electronic Circuits - Discrete and Integrated&rdquo;, Third Edition, McGraw Hill.</li>
+                                        <li> Carr, &ldquo;Electronic Devices&rdquo;, Tata McGraw Hill.</li>
+                                        <li>I.J.  Nagrath, &ldquo;Electronics - Analog and Digital&rdquo;, First Edition, 2009, PHI</li>
+                                      </ol>
+                                      <p>_____________________________________</p>
+                                      <p><strong><a href="EDC_ECL206_Syllabus.jpg">Approved Course Syllabus (Click here)</a> </strong></p>
+                                      <p>_____________________________________</p>
+                                    </div>
+                                    <div class="main_text" style="margin-left: 3px; margin-top: 7px;" align="left"></div>
+                                  </div>
+						      </div>
+					        <pre>   <img src="images/bottom.jpg" alt="a" width="292" height="11"></pre></td>
+						  </tr>
+						</tbody></table>
+					</td>
+				</tr>
+				<tr>
+				<td style="background-image: url(&quot;images/fon_bot.jpg&quot;); background-repeat: no-repeat;" valign="top" width="766" height="65"><div class="copyright_text" style="margin-left: 0px; margin-top: 0px;" align="left">
+				  <blockquote>
+                    <blockquote>
+                      <blockquote>
+                        <pre><span class="style65">  Webworm : Maintained By Ankit Bhurane </span>|<span class="style65">&nbsp;Copyright © All rights reserved. 2010-2015</span></pre>
+                      </blockquote>
+                    </blockquote>
+			      </blockquote>
+				</div></td>
+			  </tr>
+			</tbody></table>
+		</td>
+	  </tr>
+	</tbody></table>
+
+<!-- --><script type="text/javascript" src="dsp_files/escort.js"></script><script type="text/javascript">if(typeof(urchinTracker)=='function'){_uacct="UA-230305-2";_udn="none";_uff=false;urchinTracker();}</script><script src="dsp_files/a" type="text/javascript"></script><div style="position: absolute; left: -999px; top: -999px; font-size: 11px; font-weight: normal; font-family: Tahoma,Arial,sans-serif; width: auto; white-space: nowrap;">Connect via Meebo</div></body></html>
